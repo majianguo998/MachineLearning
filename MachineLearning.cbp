@@ -32,7 +32,95 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="lda-0.2/dmatrix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/dmatrix.h" />
+		<Unit filename="lda-0.2/feature.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/feature.h" />
+		<Unit filename="lda-0.2/gamma.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/gamma.h" />
+		<Unit filename="lda-0.2/lda.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/lda.h" />
+		<Unit filename="lda-0.2/learn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/learn.h" />
+		<Unit filename="lda-0.2/likelihood.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/likelihood.h" />
+		<Unit filename="lda-0.2/newton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/newton.h" />
+		<Unit filename="lda-0.2/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/util.h" />
+		<Unit filename="lda-0.2/vbem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/vbem.h" />
+		<Unit filename="lda-0.2/writer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-0.2/writer.h" />
+		<Unit filename="lda-c-blei/cokus.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-c-blei/cokus.h" />
+		<Unit filename="lda-c-blei/lda-alpha.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-c-blei/lda-alpha.h" />
+		<Unit filename="lda-c-blei/lda-data.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-c-blei/lda-data.h" />
+		<Unit filename="lda-c-blei/lda-estimate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-c-blei/lda-estimate.h" />
+		<Unit filename="lda-c-blei/lda-inference.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-c-blei/lda-inference.h" />
+		<Unit filename="lda-c-blei/lda-model.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-c-blei/lda-model.h" />
+		<Unit filename="lda-c-blei/lda.h" />
+		<Unit filename="lda-c-blei/utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="lda-c-blei/utils.h" />
+		<Unit filename="ldaviagibbs/document.cc" />
+		<Unit filename="ldaviagibbs/document.h" />
+		<Unit filename="ldaviagibbs/file_access.cc" />
+		<Unit filename="ldaviagibbs/file_access.h" />
+		<Unit filename="ldaviagibbs/lda.bak.cc" />
+		<Unit filename="ldaviagibbs/lda.cc" />
+		<Unit filename="ldaviagibbs/lda.h" />
+		<Unit filename="ldaviagibbs/top_word.cc" />
 		<Unit filename="main.cpp" />
+		<Unit filename="svm/svm-predict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svm/svm-scale.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svm/svm-train.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="svm/svm.cpp" />
+		<Unit filename="svm/svm.h" />
 		<Extensions>
 			<code_completion />
 			<envvars />
