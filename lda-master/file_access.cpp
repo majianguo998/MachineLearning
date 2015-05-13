@@ -6,11 +6,12 @@
 
 using namespace std;
 
-struct corpus* read_corpus(char* corpus_path)
+corpus* read_corpus(char* corpus_path)
 {
     ifstream infile(corpus_path);
     string line;
-    corpus* cps = (struct corpus*)malloc(sizeof(struct corpus));
+    corpus* cps = (corpus*)malloc(sizeof(struct corpus));
+	cps->docs  = NULL; //对语料库中的docs初始化，必须的一步
     int doc_count = 0;
     if(!infile)
     {
@@ -30,8 +31,11 @@ struct corpus* read_corpus(char* corpus_path)
         cps->docs[doc_count].id = doc_count;
         create_document(&cps->docs[doc_count],&cps->num_terms,line);
         doc_count++;
+
+		if(doc_count%100 == 0) cout<<doc_count<<endl;
+
     }
-    cps->num_terms = doc_count;
+	cps->num_docs = doc_count;
     infile.close();
     return cps;
 }

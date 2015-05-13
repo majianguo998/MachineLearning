@@ -25,5 +25,6 @@ int create_document(document* doc,int* max_id,string line)
         }
         wp++;
     }
+	doc->num_term = wp;
     return 1;
 }
